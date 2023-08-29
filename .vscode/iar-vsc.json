@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\DHT11_Tem&Humidity_Sensor.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\DHT11_Tem&Humidity_Sensor.eww": {
+      "configs": {
+        "${workspaceFolder}\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\DHT11_Tem&Humidity_Sensor.ewp": "Debug"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\DHT11_Tem&Humidity_Sensor.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\\\Program Files\\\\IAR Systems\\\\Embedded Workbench 9.1"
+  }
+}

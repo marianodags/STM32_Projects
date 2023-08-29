@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<infocenter_data version="1.0">
+  <iar_name>GPIO</iar_name>                                   <!--App-->
+  <iar_description>These examples describe how to use GPIO BSRR (Port bit set/reset register) and BRR (Port bit reset register) for IO toggling and how to use the JTAG IOs as standard GPIOs.</iar_description>                     <!--App short description-->
+  <iar_curdir>$CUR_DIR$</iar_curdir>
+</infocenter_data>
