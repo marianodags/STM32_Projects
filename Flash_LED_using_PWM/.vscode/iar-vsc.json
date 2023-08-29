@@ -1,0 +1,5 @@
+{
+    "ewp": "${workspaceFolder}\\EWARM\\PWM_LED.ewp",
+    "configuration": "Debug",
+    "toolchain": "C:\\\\Program Files\\\\IAR Systems\\\\Embedded Workbench 9.1"
+}
