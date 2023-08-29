@@ -1,15 +1,85 @@
 [
   {
+    "ID": "c:@GPIO_InitStructure",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "GPIO_InitStructure",
+    "location": {
+      "column": "18",
+      "line": "38",
+      "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
+    },
+    "name": "GPIO_InitStructure",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RCC_Configuration",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void RCC_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "41",
+      "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
+    },
+    "name": "RCC_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "2",
+      "line": "51",
       "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RCC_Configuration",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void RCC_Configuration(void)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
+    },
+    "name": "RCC_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "C:\\Users\\MARIANO\\Desktop\\GITHUB_PROJECTS\\STM32_Projects\\Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8\\main.c"
+    },
+    "name": "Delay",
     "origin": "project_file",
     "scope": null
   }
