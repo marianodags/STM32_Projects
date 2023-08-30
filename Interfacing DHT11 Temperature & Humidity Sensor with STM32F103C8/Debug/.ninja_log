@@ -1,1 +1,11 @@
 # ninja log v5
+1	948	7150585221346143	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Obj/main.o	b5c6f40bfa629e0f
+951	1316	7150585225106463	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Exe/DHT11_Tem&Humidity_Sensor.out	a95d57b12c194bd6
+2	163	7150594445291705	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Obj/main.o	b5c6f40bfa629e0f
+165	217	7150594445766968	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Exe/DHT11_Tem&Humidity_Sensor.out	a95d57b12c194bd6
+2	545	7150595265129036	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Obj/main.o	b5c6f40bfa629e0f
+548	773	7150595267517185	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Exe/DHT11_Tem&Humidity_Sensor.out	a95d57b12c194bd6
+2	105	7150596805773249	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Obj/main.o	b5c6f40bfa629e0f
+107	150	7150596806290250	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Exe/DHT11_Tem&Humidity_Sensor.out	a95d57b12c194bd6
+2	90	7150597162320655	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Obj/main.o	b5c6f40bfa629e0f
+92	139	7150597162955865	C:/Users/MARIANO/Desktop/GITHUB_PROJECTS/STM32_Projects/Interfacing DHT11 Temperature & Humidity Sensor with STM32F103C8/Debug/Exe/DHT11_Tem&Humidity_Sensor.out	a95d57b12c194bd6

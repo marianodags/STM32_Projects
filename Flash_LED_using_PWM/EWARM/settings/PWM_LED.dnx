@@ -35,7 +35,7 @@
         <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CONFIG\debugger\ST\STM32F103C6.ddf</MemConfigValue>
     </PlDriver>
     <StLinkDriver>
-        <stlinkserialNo>T</stlinkserialNo>
+        <stlinkserialNo>09003000190000345233544E</stlinkserialNo>
         <stlinkfoundProbes />
         <stlinkResetStyle>0</stlinkResetStyle>
         <stlinkResetStrategy>0</stlinkResetStrategy>
@@ -47,7 +47,7 @@
         <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
     </ArmDriver>
     <DebugChecksum>
-        <Checksum>4026987941</Checksum>
+        <Checksum>1690722332</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>

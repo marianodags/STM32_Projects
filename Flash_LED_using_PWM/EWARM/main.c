@@ -124,14 +124,23 @@ int main(void)
 
 
 	  /* Initialize all configured peripherals */
-	  MX_GPIO_Init();
-	  MX_I2C1_Init();
+	 // MX_GPIO_Init();
+	 /* MX_I2C1_Init();
 	  MX_TIM2_Init();
-	  MX_TIM1_Init();
+	  MX_TIM1_Init();*/
+          GPIO_InitTypeDef GPIO_InitStruct = {0};
 
+          /* GPIO Ports Clock Enable */
+          __HAL_RCC_GPIOC_CLK_ENABLE();
+          
+          GPIO_InitStruct.Pin = GPIO_PIN_13;
+          GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+          GPIO_InitStruct.Pull = GPIO_NOPULL;
+          GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+          HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
 	  // HAL_TIM_Base_Start(&htim2);
-	   TIM2->CCR1 = 5000;
+	/*   TIM2->CCR1 = 5000;
 	   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 	 //  HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1);
 
@@ -149,9 +158,10 @@ int main(void)
 	   HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);
         //     HAL_TIM_Base_Start(&htim1);
 	   lcd_put_cur(0, 0);
-	   lcd_send_string ("Dist= ");
+	   lcd_send_string ("Dist= ");*/
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+           
   while (1)
   {
     /* USER CODE END WHILE */
@@ -159,14 +169,20 @@ int main(void)
 	//  HAL_Delay(500);  // wait for 10 us
 
  	 // Read_Val();
- HCSR04_Read();
+ /*HCSR04_Read();
  lcd_put_cur(0, 5);
  lcd_send_data((Distance/100) + 48);   // 100th pos
  lcd_send_data(((Distance/10)%10) +48);  // 10th pos
  lcd_send_data((Distance%10)+48);  // 1st pos
  lcd_send_string(" cm");
  HAL_Delay(200);
- printf(" %d \n",Distance);
+ printf(" %d \n",Distance);*/
+ 
+ 
+ 	  HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
+	  //HAL_Delay(1000);
+	  //HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,0);
+	  HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }

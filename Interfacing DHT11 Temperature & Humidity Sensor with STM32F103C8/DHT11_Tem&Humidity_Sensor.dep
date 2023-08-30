@@ -5,17 +5,62 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\List\DHT11_Tem&amp;Humidity_Sensor.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\DHT11_Tem&amp;Humidity_Sensor.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
         </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 14 7</file>
+                </tool>
+            </outputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 9 10 8 16 11 6 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\DHT11_Tem&amp;Humidity_Sensor.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 2 13 4 5 3 1</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>
